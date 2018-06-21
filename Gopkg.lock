@@ -8,6 +8,12 @@
   version = "v1.0"
 
 [[projects]]
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
+  version = "v0.8.0"
+
+[[projects]]
   name = "github.com/spf13/cobra"
   packages = ["."]
   revision = "ef82de70bb3f60c65fb8eebacbb2d122ef517385"
@@ -19,9 +25,15 @@
   revision = "583c0c0531f06d5278b7d917446061adc344b5cd"
   version = "v1.0.1"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "ad87a3a340fa7f3bed189293fbfa7a9b7e021ae1"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5eda3838fc88b2a483599fec65019f4a40dd483b6c6d29dbd6df2cd65e2058cd"
+  inputs-digest = "43bfd22894ccf7ba00a6a16d73cb7856727f48f63d698cfd0582c492b9e69073"
   solver-name = "gps-cdcl"
   solver-version = 1
