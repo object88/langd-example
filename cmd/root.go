@@ -6,9 +6,9 @@ import "github.com/spf13/cobra"
 func InitializeCommands() *cobra.Command {
 	rootCmd := createRootCommand()
 
-	// rootCmd.AddCommand(
-	// 	createGenerateCommand(),
-	// )
+	rootCmd.AddCommand(
+		createGenerateCommand(),
+	)
 
 	return rootCmd
 }
